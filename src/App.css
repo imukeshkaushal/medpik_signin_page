@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  --font-poppins: Poppins;
+  --font-size-lg: 18px;
+  --color-white: #fff;
+  --primary: #004f95;
+  --light-blue-bg: #f0f8ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent_box {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: var(--light-blue-bg);
+  box-shadow: 0 4px 8px -2px rgba(154, 154, 154, 0.25);
+  display: flex;
+  gap: 80px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 109.64px;
+  height: 40px;
+  overflow: hidden;
+  margin: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_text {
+  color: #004f95;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.features {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  padding: 20px;
+  color: #f0f8ff;
+}
+
+#img_box {
+  width: 65px;
+  height: 65px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(74, 74, 74, 0.25);
+  border-radius: 5px;
+}
+
+.category_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125%;
+
+  color: #f0f8ff;
+}
+.description {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  color: #f0f8ff;
+}
+
+.appsStore {
+  width: 140.27px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.appText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #004f95;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #f0f8ff;
+  box-shadow: 0px -4px 8px -2px rgba(154, 154, 154, 0.25);
+
+}
+
+.copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #2a2a2a;
+}
+
+.sign-in {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #f78117;
+  text-align: center;
+  padding: 10px;
+}
+
+.line {
+  height: 0px;
+  border: 0.3px solid #ecebeb;
+  margin: 0px 50px 0px 50px;
+}
+.form_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+
+  color: #004f95;
+}
+
+.label_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+}
+
+.forgot {
+  color: #e12c33;
+  cursor: pointer;
+}
+
+.new_account {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #7a7a7a;
+}
+.sign_up {
+  color: #f78117;
+  cursor: pointer;
+}
+
+#submit {
+  background: #004f95;
+  box-shadow: 0px 4px 4px -2px rgba(0, 79, 149, 0.25);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
 }
